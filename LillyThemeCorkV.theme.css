@@ -1,0 +1,91 @@
+.da-form, .da-container, .da-baseLayer, .da-Layer, .da-bg, .da-app, .da-sidebar, 
+.da-scrollerInner, .da-messagesWrapper, .da-scroller, .da-members, .da-searchBar, 
+.da-inner, .da-webkit, .da-root, .da-panel, .da-white, section, .wrapper-2aW0bm, 
+.content-3YMskv, .da-uploadModal, .da-footer, .footer-2gL1pp, .lookFilled-22uAsw.select-2fjwPw, 
+.da-option, .da-cozy, .da-cozy, .wrapper-3vR61M {
+    background-color: black !important;
+}
+
+
+/* Scrollbars */
+
+::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+#app-mount .scroller-3vODG7::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+#app-mount .scroller--qpKGq::-webkit-scrollbar,
+#app-mount .scrollbar-3dvm_9::-webkit-scrollbar,
+#app-mount .scroller-2PSBSf::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+#app-mount ::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar-track,
+#app-mount ::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb,
+#app-mount ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: none;
+	background-color: var(--vaccentcolor) !important;
+}
+.none-2Eo-qx::-webkit-scrollbar-corner,
+.none-2Eo-qx::-webkit-scrollbar-thumb,
+.none-2Eo-qx::-webkit-scrollbar-track,
+.none-2Eo-qx::-webkit-scrollbar {
+	display: none;
+}
+
+
+/* Not scrollbars */
+
+.unreadPill-2HyYtt {										/* divider				unreadPill							*/
+	color: white;
+}
+
+
+
+.children-19S4PO::after, .da-form:before {
+    content: none !important;
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: var(--vaccentcolor);
+}
+
+.selected-aXhQR6 .layout-2DM8Md:hover {
+    background-color: rgb(196, 0, 173) !important;
+}
+
+.da-layout:hover, .circleIconButton-jET_ig.selected-ugP_am {
+    background-color: rgb(49, 0, 43) !important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91, .da-closedFolderIconWrapper, .da-circleIconButton {
+    background-color: var(--vaccentcolor);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgb(184, 0, 168);
+}
+
+.button-14-BFJ.enabled-2cQ-u7:hover {
+	opacity: 1;
+	background-color: var(--vaccentcolor) !important;
+}
+
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+	background-color: var(--vaccentcolor) !important;
+	text-shadow: 1px 1px var(--vtextshadow);
+}
